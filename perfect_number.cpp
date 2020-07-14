@@ -4,7 +4,7 @@ using  namespace std;
 
 int main(){
   int num,sum=0;
-  cout<<"enter the number of which you want to find factorial"<<endl;
+  cout<<"enter the number of which you want to find perfect or not"<<endl;
   cin>>num;
   for(int i=1;i<=num;i++){
       if(num%i==0) sum += i;
